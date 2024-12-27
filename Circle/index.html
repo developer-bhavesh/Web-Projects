@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Circle Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+  <h1>
+    Circle Calculator
+  </h1>
+  <p>
+    Calculate Area and Circumference of Circle
+  </p>
+
+  <div style="border: 1px solid black; display: inline-block; padding-bottom: 50px; padding-top: 20px;">
+  <label style="margin-left: 70px; margin-bottom: 10px;">Enter Radius</label>
+  <br/>
+  <input type="text" id="radius" placeholder="Enter Here">
+  <br/>
+  <button id="calculate" class="calculate">Calculate</button>
+  <button class="calculate" id="reset" onclick="document.getElementById('radius').value = '';document.getElementById('area').textContent='Area = 0';document.getElementById('circum').textContent='Circumference = 0.000';">Clear</button>
+
+  <br>
+
+  <label style="margin:20px ;">
+    Result
+  </label>
+
+  <p id="area">
+    Area = 0
+  </p>
+  <p id="circum">
+    Circumference = 0.000
+  </p>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

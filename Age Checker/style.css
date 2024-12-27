@@ -1,0 +1,29 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label{
+  margin: 10px;
+}
+
+#ageText{
+  padding: 5px 20px;
+  margin: 10px;
+}
+
+#ageBtn{
+  padding: 5px 20px;
+  margin: 10px;
+  border: 2px solid hsl(249, 96%, 55%);
+  color: hsl(249, 96%, 55%);
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.25s;
+}
+
+#ageBtn:hover{
+  color: white;
+  background-color: hsl(249, 96%, 55%);
+  border-color: hsl(249, 96%, 55%);
+}

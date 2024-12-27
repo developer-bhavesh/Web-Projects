@@ -1,0 +1,32 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#counter{
+  display: block;
+  text-align: center;
+  font-size: 6em;
+}
+
+.buttons{
+  text-align: center;
+}
+.btns{
+  padding: 15px 30px;
+  font-size: larger;
+  font-weight: bold;
+  background-color: hsl(221, 87%, 63%);
+  color: white;
+  border: 1px solid black;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.btns:hover{
+  background-color: hsl(221, 100%, 48%);
+}
+
+.btns:active{
+  opacity: 0.8;
+}

@@ -1,0 +1,38 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  color: hsla(224, 83%, 62%, 0.623);
+  background-color: beige;
+}
+
+#rollDiceBtn{
+  width: 80px;
+  height: 80px;
+  margin: 30px 30px;
+  text-align: center;
+  font-size: 0.5em;
+  border: 2px solid black;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
+  transition: background-color 0.5s;
+}
+
+#rollDiceBtn:active{
+  opacity: 0.7;
+}
+#rollDiceBtn:hover{
+  background-color: black;
+  color: white;
+}
+
+#diceRollerBox{
+  border: 2px solid black;
+  display: inline-block;
+  padding: 40px 80px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 25px gray;
+  background-color: white;
+}
