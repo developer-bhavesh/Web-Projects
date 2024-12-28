@@ -1,7 +1,6 @@
 body{
   background-color: bisque;
   text-align: center;
-  font-size: 2em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
@@ -30,4 +29,21 @@ body{
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   height: 25%;
+}
+
+.btn{
+  margin-top: 5px;
+  margin-right: 8px;
+  border: 2px solid #304FFE;
+  color: #304FFE;
+  width: 80px;
+  height: 40px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.75s;
+}
+
+.btn:hover{
+  background-color: #304FFE;
+  color: white;
 }
