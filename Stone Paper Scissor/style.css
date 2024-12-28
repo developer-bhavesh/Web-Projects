@@ -1,0 +1,33 @@
+body{
+  background-color: bisque;
+  text-align: center;
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.mainbox{
+  display: inline-block;
+  border: 2px solid black;
+  width:600px;
+  height: 600px;
+  background-color: white;
+  box-shadow: 5px 5px 18px black;
+}
+
+.opp{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 25%;
+  text-align: center;
+}
+.play{
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 50%;
+}
+.user{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 25%;
+}
