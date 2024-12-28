@@ -12,17 +12,20 @@
 
     <div class="opp">
       <div>
+
+        <center>
         <p id="oppScore">0</p>
+        </center>
       </div>
 
       <div>
-        <img src="images/opp.jpeg" width="100px">
+        <img src="images/opp.png" width="100px" id="oppImg">
         <br/>
-        <label>Pookie</label>
+        <label>Computer</label>
       </div>
 
       <div>
-        <img src="images/happy.jpeg" width="80px">
+        <p id="annoc">Play Buddy</p>
       </div>
     </div>
 
@@ -30,7 +33,7 @@
       <div>
 
 
-          <img src="images/scissor.jpeg" alt="" width="80px">
+          <img src="images/scissor.jpeg" alt="" width="80px" id="computerImage">
        
 
       </div>
@@ -47,18 +50,18 @@
 
     <div class="user">
       <div>
-        <p id="userScore">0</p>
+          <p id="userScore">0</p>
       </div>
 
       <div>
         <label id="userName">Gan Gotala</label>
         <br>
-        <img src="images/user.jpeg" width="100px">
+        <img src="images/user.png" width="100px">
       </div>
       <div>
-        <button class="btn" id="stone" onclick="stonegame()">Stone</button>
-        <button class="btn" id="paper" onclick="papergame()">Paper</button>
-        <button class="btn" id="scissor" onclick="scissorgame()">Scissor</button>
+        <button class="btn" id="stone" onclick="game(1)">Stone</button>
+        <button class="btn" id="paper" onclick="game(2)">Paper</button>
+        <button class="btn" id="scissor" onclick="game(3)">Scissor</button>
       </div>
     </div>
     
