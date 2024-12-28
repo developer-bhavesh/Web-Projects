@@ -6,7 +6,7 @@ Welcome to my **Web Projects Portfolio**! This repository showcases a variety of
 1. **Stone Paper Scissor**:  
    - **Description:** Play the classic game against the computer.  
    - **Highlights:**  - Interactive gameplay with score tracking and Visual animations for winning/losing.  
-   - **Live Demo:** [Link to live demo if available]  
+   - **Live Demo:** [https://developer-bhavesh.github.io/Stone-Paper-Scissor/]  
 
 2. **Multiple Dice Roller**:  
    - **Description:** A fun and interactive tool to roll multiple dice at once.  
