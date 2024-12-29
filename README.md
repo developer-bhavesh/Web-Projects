@@ -10,8 +10,16 @@ Welcome to my **Web Projects Portfolio**! This repository showcases a variety of
 
 2. **Multiple Dice Roller**:  
    - **Description:** A fun and interactive tool to roll multiple dice at once.  
+   - **Highlights:**
+           - Generate passwords of desired length
+           - Include/exclude uppercase letters, numbers, and special characters
+           - Easy-to-use interface
+   - **Live Demo:** [https://developer-bhavesh.github.io/Multiple-Dice-Roller/]
+     
+3. **Random Password Generator**:  
+   - **Description:**  A secure and customizable random password generator.  
    - **Highlights:** Choose the number of dice to roll and Displays the result of each die  
-   - **Live Demo:** [https://developer-bhavesh.github.io/Multiple-Dice-Roller/]  
+   - **Live Demo:** [https://passwordgenerator-bhaveshs-projects-7005c564.vercel.app/] 
 
 
 ## 🚀 Features  
