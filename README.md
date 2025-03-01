@@ -19,8 +19,7 @@ Welcome to my **Web Projects Portfolio**! This repository showcases a variety of
    - **Live Demo:** [https://passwordgenerator-bhaveshs-projects-7005c564.vercel.app/] 
 
 
-## 🚀 Features  
-- **Responsive Designs:** Projects are designed to be accessible and visually appealing across various devices.  
+## 🚀 Features    
 - **Interactive Elements:** Seamless integration of JavaScript for enhanced user interaction.  
 - **Clean Code:** Well-structured and commented code for easy understanding.  
 
